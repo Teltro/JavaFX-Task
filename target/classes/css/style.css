@@ -1,0 +1,99 @@
+.background {
+    -fx-background-color: #eeeeee;
+}
+
+.root {
+    -fx-background-color: #eeeeee;
+}
+
+.tree-table-view {
+    -fx-background-color: transparent;
+}
+
+.tree-table-view:focused {
+    -fx-background-color: transparent;
+}
+
+.tree-table-view .column-header-background{
+    -fx-background-color: #cc0000;
+}
+
+.tree-table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.tree-table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.tree-table-row-cell > * {
+    -fx-text-fill: black;
+}
+
+.tree-table-row-cell{
+    -fx-background-color: #eeeeee;
+}
+
+.tree-table-row-cell:odd{
+    /*-fx-background-color: #000066;*/
+    -fx-background-color: #ccccff;
+
+}
+
+.tree-table-row-cell:selected {
+    -fx-background-color: #ffaa00;
+}
+
+.corner {
+    -fx-background-color: #dddddd
+}
+
+.scroll-bar .track {
+    -fx-background-color: #dddddd;
+}
+
+.scroll-bar .track-background {
+    -fx-background-color: #dddddd;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #ffaa00;
+}
+
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: #ffaa00;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-radius: 0;
+}
+
+#addButton {
+    -fx-background-color: #0000cc
+}
+
+#editButton {
+    -fx-background-color: #cc0099
+}
+
+#deleteButton {
+    -fx-background-color: #cc0000
+}
+
+#personManageAnchorPane > .button {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+#personManageAnchorPane > #saveButton {
+    -fx-background-color: #00cc00
+}
+
+#personManageAnchorPane > #cancelButton {
+    -fx-background-color: #cc0000
+}
+
